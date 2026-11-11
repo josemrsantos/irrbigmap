@@ -5,7 +5,7 @@
 #
 # Usage:
 #   make            build ../bin/bigmap
-#   make run        build, then run it from ../media
+#   make run        build, then run it from the repo root (it loads media/...)
 #   make overview   generate the distant-terrain images (needs Python, numpy, Pillow)
 #   make clean
 #
@@ -15,7 +15,7 @@
 Target       = bigmap
 Sources      = TiledTerrain.cpp OverviewTerrain.cpp main.cpp
 BIN_DIR      = ../bin
-MEDIA_DIR    = ../media
+MEDIA_DIR    = ..
 
 CXX         ?= g++
 IRRLICHT_INC ?= /usr/include/irrlicht

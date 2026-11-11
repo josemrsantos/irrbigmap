@@ -78,7 +78,7 @@ make run
 ```
 
 The program asks which video driver to use; choose OpenGL. `make` alone builds
-`bin/bigmap`; it must be started from the `media/` directory because it loads
+`bin/bigmap`; it must be started from the repository root because it loads
 `media/...` relative to the current directory (`make run` does that for you).
 
 ### Map data
