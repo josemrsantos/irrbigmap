@@ -1,0 +1,9 @@
+# build output
+bin/
+*.o
+__pycache__/
+
+# archives and large tile data (distributed as release assets)
+*.zip
+*.zip.bak
+reports/
